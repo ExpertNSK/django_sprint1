@@ -50,8 +50,8 @@ def index(request):
 
 
 def post_detail(request, id):
-    return render(request, 'detail.html')
+    return render(request, 'blog/detail.html')
 
 
 def category_posts(request, category_slug):
-    return render(request, 'category.html')
+    return render(request, 'blog/category.html')
