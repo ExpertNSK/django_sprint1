@@ -46,7 +46,7 @@ posts = [
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'blog/index.html')
 
 
 def post_detail(request, id):
